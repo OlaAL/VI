@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico|Righteous);
+
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #a5b3bd;
+}
+
+.title {
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+    margin: 1px;
+}
+
+.secondTitle {
+    font-family: 'Pacifico', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    margin-top: 1px;
+    margin-bottom: 10px;
+
+}
+
+
+/* Calculator-box */
+
+.calculator-box {
+    background-color: #9ac5b7;
+    margin: 100px;
+    width: 350px;
+    height: 660px;
+    padding: 10px;
+    text-align: center;
+    border: 1px black solid;
+    border-radius: 10px
+}
+
+.footer {
+    font-size: .9em;
+}
+
+button {
+    -webkit-appearance: button;
+    border: 1px solid black;
+    border-radius: 2px;
+    display: inline-block;
+    width: 70px;
+    height: 100px;
+    padding: 5px;
+    margin: 1px;
+    background-color: #e3fdeb;
+    font-size: 1.5em;
+
+}
+
+.pemdas {
+    background-color: #66c2a3
+}
+
+#clear {
+    background-color: #67b69b
+}
+
+/* Input */
+
+#whereInputGoes {
+    text-align: right;
+    font-size: 29px;
+    width: 220px;
+
+}
